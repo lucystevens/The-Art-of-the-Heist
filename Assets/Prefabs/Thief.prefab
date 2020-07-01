@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -5816699332724133773}
   - component: {fileID: 5183787755867326319}
   - component: {fileID: 1285555228081316645}
+  - component: {fileID: 8683355286176558521}
   m_Layer: 0
   m_Name: Thief
   m_TagString: Player
@@ -167,7 +168,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7292651140036699373}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d12d341b3b1a2114889e602109b620db, type: 3}
   m_Name: 
@@ -185,7 +186,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7292651140036699373}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7235904b6f28dd446a6f06521d667eaf, type: 3}
   m_Name: 
@@ -205,3 +206,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fdecf51cd8742aa9a159035b66a5520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8683355286176558521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7292651140036699373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ce9e7d62c1e3d4408a5fe61d25e8915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  rotateSpeed: 5
+  leftButton: 276
+  rightButton: 275
+  upButton: 273
+  downButton: 274

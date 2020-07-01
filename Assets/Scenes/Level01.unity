@@ -73441,6 +73441,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 494734167}
     m_Modifications:
+    - target: {fileID: -5816699332724133773, guid: 5f2cd7378a63ad84e8a800f9e9fc46e6,
+        type: 3}
+      propertyPath: moveRelativeToRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5816699332724133773, guid: 5f2cd7378a63ad84e8a800f9e9fc46e6,
+        type: 3}
+      propertyPath: leftButton
+      value: 276
+      objectReference: {fileID: 0}
+    - target: {fileID: -5816699332724133773, guid: 5f2cd7378a63ad84e8a800f9e9fc46e6,
+        type: 3}
+      propertyPath: rightButton
+      value: 275
+      objectReference: {fileID: 0}
+    - target: {fileID: 5183787755867326319, guid: 5f2cd7378a63ad84e8a800f9e9fc46e6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7292651140036699368, guid: 5f2cd7378a63ad84e8a800f9e9fc46e6,
         type: 3}
       propertyPath: m_LocalPosition.x
